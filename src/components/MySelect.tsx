@@ -1,9 +1,9 @@
 import { useField } from 'formik';
 import React from 'react';
 
-import { SelectInputProps } from '../interfaces/interfaces';
+import { SelectProps } from '../interfaces/interfaces';
 
-export const MySelect = ({ label, ...props }: SelectInputProps) => {
+export const MySelect = ({ label, ...props }: SelectProps) => {
     const [field, meta] = useField(props)
 
     return (
