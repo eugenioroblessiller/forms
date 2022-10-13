@@ -4,6 +4,7 @@ import { ErrorMessage, Field, Form, Formik } from 'formik';
 import React from 'react';
 import * as Yup from 'yup';
 
+import { MySelect } from '../components/MySelect';
 import { MyTextInput } from './../components/MyTextInput';
 
 export const FormikAbstractation = () => {
@@ -43,15 +44,13 @@ export const FormikAbstractation = () => {
                     <MyTextInput label={'Last Name'} name={'lastName'} placeholder={'Villa'} type={'text'} />
                     <MyTextInput label={'Email Address'} name={'email'} placeholder={'example@email.com'} type={'email'} />
 
-                    <label htmlFor="jobType">Job type</label>
-                    <Field name="jobType" as="select" >
+                    <MySelect label={'Job Title type'} name={'jobType'} >
                         <option value="">Select a job type</option>
                         <option value="designer">Designer</option>
                         <option value="development">Developer</option>
                         <option value="product">Product Manager</option>
                         <option value="other">Other</option>
-                    </Field>
-                    <ErrorMessage name="jobType" component='span' />
+                    </MySelect>
 
                     <label htmlFor="terms">
                         <Field name="terms" type="checkbox" />
