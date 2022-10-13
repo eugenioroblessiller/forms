@@ -11,3 +11,10 @@ export interface TextInputProps {
   placeholder?: string;
   [x: string]: any;
 }
+
+export interface SelectInputProps {
+  label: string;
+  name: string;
+  placeholder?: string;
+  [x: string]: any;
+}
