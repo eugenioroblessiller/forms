@@ -3,7 +3,7 @@ import React from 'react'
 
 import * as Yup from 'yup';
 
-export const FomirkYopPage = () => {
+export const FomirkYupPage = () => {
 
     const formik = useFormik({
         initialValues: {
