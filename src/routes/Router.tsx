@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import { FormikAbstractation } from '../pages/FormikAbstractation';
 import { FormikBasicPage } from '../pages/FormikBasicPage';
 import { FormikComponents } from '../pages/FormikComponents';
 import { FormikYupPage } from '../pages/FormikYupPage';
@@ -13,6 +14,7 @@ export const Router = () => {
             <Route path='/formik-basic' element={<FormikBasicPage />} />
             <Route path='/formik-yup' element={<FormikYupPage />} />
             <Route path='/formik-components' element={<FormikComponents />} />
+            <Route path='/formik-abstractation' element={<FormikAbstractation />} />
         </Routes>
     )
 }
