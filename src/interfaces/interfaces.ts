@@ -12,9 +12,15 @@ export interface TextInputProps {
   [x: string]: any;
 }
 
-export interface SelectInputProps {
+export interface SelectProps {
   label: string;
   name: string;
   placeholder?: string;
+  [x: string]: any;
+}
+
+export interface CheckboxProps {
+  label: string;
+  name: string;
   [x: string]: any;
 }
