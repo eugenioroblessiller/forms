@@ -1,6 +1,7 @@
-import { useFormik } from 'formik'
-import React from 'react'
+import '../styles/styles.css';
 
+import { useFormik } from 'formik';
+import React from 'react';
 import * as Yup from 'yup';
 
 export const FormikYupPage = () => {
