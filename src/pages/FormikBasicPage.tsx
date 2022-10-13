@@ -2,7 +2,6 @@ import '../styles/styles.css';
 
 import { FormikErrors, useFormik } from 'formik';
 import React from 'react';
-import * as Yup from 'yup';
 
 import { FormValues } from '../interfaces/interfaces';
 
