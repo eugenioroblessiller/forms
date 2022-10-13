@@ -1,11 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import { FormikAbstractation } from '../pages/FormikAbstractation';
-import { FormikBasicPage } from '../pages/FormikBasicPage';
-import { FormikComponents } from '../pages/FormikComponents';
-import { FormikYupPage } from '../pages/FormikYupPage';
-import { RegisterPage } from '../pages/RegisterPage';
+import { FormikAbstractation, FormikBasicPage, FormikComponents, FormikYupPage, RegisterPage } from '../pages';
+
+
 
 export const Router = () => {
     return (
