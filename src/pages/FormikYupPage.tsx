@@ -27,7 +27,7 @@ export const FormikYupPage = () => {
 
     return (
         <div>
-            <h1>Formik YOP</h1>
+            <h1>Formik YUP</h1>
 
             <form action="" noValidate onSubmit={formik.handleSubmit}>
                 <label htmlFor="">First name</label>
