@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import {
+    DynamicForm,
     FormikAbstractation,
     FormikBasicPage,
     FormikComponents,
@@ -21,6 +22,7 @@ export const Router = () => {
             <Route path='/formik-components' element={<FormikComponents />} />
             <Route path='/formik-abstractation' element={<FormikAbstractation />} />
             <Route path='/formik-register' element={<RegisterFormikPage />} />
+            <Route path='/dynamic-form' element={<DynamicForm />} />
         </Routes>
     )
 }
